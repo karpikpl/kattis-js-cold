@@ -19,25 +19,13 @@ describe('Solution', function() {
     describe('program', function() {
 
         [{
-            input: ['6 6'],
-            result: 7
+            input: ['3', '5 -10 15'],
+            result: 1
         }, {
-            input: ['6 4'],
-            result: ['5', '6', '7']
-        }, {
-            input: ['12 20'],
-            result: [
-                '13',
-                '14',
-                '15',
-                '16',
-                '17',
-                '18',
-                '19',
-                '20',
-                '21'
-            ]
-        }].forEach((testCase) => {
+            input: ['5', '-14 -5 -39 -5 -7'],
+            result: 5
+        }]
+        .forEach((testCase) => {
 
             it('should solve for ' + testCase.input, function() {
 
