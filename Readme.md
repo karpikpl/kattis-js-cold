@@ -1,5 +1,8 @@
 # About
-ES2016 wrapper for https://open.kattis.com/ platform.
+Solution form Kattis problem https://open.kattis.com/problems/cold
+
+# Scaffolding
+Solution using ES2016 wrapper for https://open.kattis.com/ platform - https://github.com/karpikpl/kattis-js-ecma2016
 
 ## Usage
 Put your solution inside `solution()` method. Add tests in `test/index.js`.
